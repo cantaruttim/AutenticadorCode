@@ -14,18 +14,26 @@ function Home() {
             <title>Home</title>
         </Head>
 
+        <header>
+            dr.consulta
+        </header>
+
         <div className='Bloco'>
             <div className='text_1'>
                 Insira a chave de verificação para validar o documento.
             </div>
 
-            <input type="text" /> <button>Verificar</button>
+            <input className='campoTexto' type="text" /> <button className='btnVerificar'>Verificar</button>
 
             <div className='CampoObrigatorio'>
                 *Campo Obrigatório
             </div>
 
         </div>
+
+        <footer>
+            dr.c
+        </footer>
 
         <br />
         Welcome to Authenticator Page!
