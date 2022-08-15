@@ -23,3 +23,5 @@
 `npm install --save mysql2`
 
 ### instalando manualmente o next
+
+`npm install next react react-dom`
