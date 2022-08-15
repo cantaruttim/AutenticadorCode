@@ -1,0 +1,22 @@
+{
+  "name": "autenticadorcode",
+  "version": "1.0.0",
+  "description": "- [ ] O objetivo deste projeto é criar um clone do site (https://valida.drconsulta.com/), um validador e autenticador de código de receituários digitais, utilizando o Next, Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cantaruttim/AutenticadorCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cantaruttim/AutenticadorCode/issues"
+  },
+  "homepage": "https://github.com/cantaruttim/AutenticadorCode#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
