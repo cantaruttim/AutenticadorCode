@@ -30,13 +30,12 @@ function Home() {
             </div>
 
         </div>
-
+        
         <footer>
             dr.c
         </footer>
 
         <br />
-        Welcome to Authenticator Page!
     </div>
         )
   }
