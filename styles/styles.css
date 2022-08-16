@@ -24,7 +24,7 @@ header .linkLogo .logo{
 
 .content{
     max-width: 1366px;
-    height: 600px;
+    height: 550px;
     padding: 0 10px;
     margin: auto;
     background-color: var(--corArea);
@@ -132,8 +132,8 @@ footer{
     margin: auto;
     font-size: 20px;
     position: absolute;
-    left: 120px;
-    top: 630px;
+    left: 80px;
+    top: 590px;
     padding: 0 20px;
 }
 
