@@ -34,6 +34,7 @@ body .content {
     left: 475px;
     padding: 10px;
     border-radius: 6px;
+    background-color: var(--corArea);
 }
 
 .content .textoLogo{
@@ -66,9 +67,24 @@ body .content {
 .content .content-box .caixaDados .caixaChave{
     margin: 10px 5px;
     padding: 20px 5px;
-    width: 75px;
+    width: 200px;
     height: 15px;
     border-radius: 6px;border: solid red;
+}
+
+.content .content-box .btnVerificar{
+    background-color: gold;
+    color: #fff;
+    padding: 20px 5px;
+    margin: 10px 5px;
+    height: 15px;
+    align-items: flex-end;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 999;
+    position: absolute;
+    left: 250px;
+    top: 55px;
 }
 
 
