@@ -4,8 +4,13 @@
     background-color: #fff;
 }
 
+:root{
+    --corFundo: #0086d6;
+    --corArea: #0057b8;
+}
+
 body .content {
-    background-color: #0086d6;
+    background-color: var(--corFundo);
 }
 
 .content{
@@ -13,11 +18,11 @@ body .content {
     height: 600px;
     padding: 0 10px;
     margin: auto;
-    background-color: #0057b8;
+    background-color: var(--corArea);
 }
 
 .content-box{
-    background-color: #0057b8;
+    background-color: var(--corArea);
 }
 
 .content .content-box{
@@ -35,10 +40,26 @@ body .content {
     margin: auto;
     position: fixed;
     text-align: center;
+    top: 100px;
     left: 480px;
-    background-color: #0086d6;
+    background-color: var(--corFundo);
     color: gold;
     font-size: x-large;
+}
+
+.content .textoLogo .Imglogo{
+    margin: auto;
+    position: absolute;
+    display: inline-block;
+    background-color: var(--corFundo);
+    background-image: none;
+    left: -100px;
+}
+
+.content .textoLogo .text_1{
+    background-color: var(--corArea);
+    color: #fff;
+    font-size: medium;
 }
 
 

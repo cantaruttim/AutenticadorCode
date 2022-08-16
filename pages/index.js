@@ -23,7 +23,7 @@ function Home() {
         <section className='content'>
         <div className='textoLogo'>
                     <div className='Imglogo'>
-                        <i class="fa-solid fa-fingerprint"></i>
+                        <i class="fas fa-fingerprint fa-4x"></i>
                     </div>
                     Verificação de Documentos com Assinatura Digital
                 </div>
