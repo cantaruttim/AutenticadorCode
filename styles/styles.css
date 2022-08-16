@@ -27,5 +27,18 @@ body .content {
     position: absolute;
     top: 150px;
     left: 475px;
+    padding: 10px;
+    border-radius: 6px;
 }
+
+.content .textoLogo{
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    left: 480px;
+    background-color: #0086d6;
+    color: gold;
+    font-size: x-large;
+}
+
 

@@ -21,13 +21,13 @@ function Home() {
         </header>
 
         <section className='content'>
-            <div className='content-box'>
-                <div className='textoLogo'>
+        <div className='textoLogo'>
                     <div className='Imglogo'>
                         <i class="fa-solid fa-fingerprint"></i>
                     </div>
                     Verificação de Documentos com Assinatura Digital
                 </div>
+            <div className='content-box'>
                 <div className='caixaTexto'>
                     <div className='text_1'>
                         Insira a chave de verificação para validar o documento.
