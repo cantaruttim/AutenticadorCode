@@ -73,7 +73,8 @@ body .content {
     padding: 20px 5px;
     width: 200px;
     height: 15px;
-    border-radius: 6px;border: solid red;
+    border-radius: 6px;
+    border: thin solid red;
 }
 
 .content .content-box .btnVerificar{
@@ -101,6 +102,20 @@ body .content {
     position: absolute;
     top: 130px;
 
+}
+
+
+
+footer{
+    display: inline-block;
+}
+
+.textFooter{
+    color: blue;
+    display: block;
+    align-items: center;
+    margin: auto;
+    font-size: 16px;
 }
 
 

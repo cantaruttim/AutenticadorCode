@@ -46,7 +46,11 @@ function Home() {
 
         <footer>
             <div>
-                <a>dr.c</a>
+                <a>dr.c</a> 
+                <div className='textFooter'>
+                    &copy; dr.consulta 2019 <br />
+                    todos os direitos reservados
+                </div>
             </div>
         </footer>
 
