@@ -4,8 +4,28 @@
     background-color: #fff;
 }
 
-body{
-    width: 1400px;
-    height: 610px;
-    background-color: aqua;
+body .content {
+    background-color: #0086d6;
 }
+
+.content{
+    max-width: 1366px;
+    height: 600px;
+    padding: 0 10px;
+    margin: auto;
+    background-color: #0057b8;
+}
+
+.content-box{
+    background-color: #0057b8;
+}
+
+.content .content-box{
+    max-width: 1150px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 475px;
+}
+
