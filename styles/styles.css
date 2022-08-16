@@ -7,6 +7,7 @@
 :root{
     --corFundo: #0032d6;
     --corArea: #041ba0;
+    --corHover1: goldenrod;
 }
 
 body .content {
@@ -80,7 +81,7 @@ header .linkLogo .logo{
 .content .content-box .caixaDados .caixaChave{
     margin: 10px 5px;
     padding: 20px 5px;
-    width: 200px;
+    width: 215px;
     height: 15px;
     border-radius: 6px;
     border: thin solid red;
@@ -104,6 +105,10 @@ header .linkLogo .logo{
     left: 260px;
     top: 48px;
     cursor: pointer;
+}
+
+.content .content-box .btnVerificar:hover{
+    background-color: var(--corHover1);
 }
 
 .content .content-box .CampoObrigatorio{
