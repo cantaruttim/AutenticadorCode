@@ -83,7 +83,7 @@ body .content {
     width: 100px;
     height: 45px;
     padding: 20px 5px;
-    margin: 10px 5px;
+    margin: 10px 0;
     align-items: flex-end;
     padding: 10px;
     border-radius: 6px;
