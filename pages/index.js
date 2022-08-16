@@ -15,8 +15,8 @@ function Home() {
         </Head>
 
         <header>
-            <div>
-                <a>dr.consulta</a>
+            <div className='linkLogo'>
+                <a className='logo'>dr.consulta</a>
             </div>
         </header>
 
@@ -49,7 +49,7 @@ function Home() {
                 <a>dr.c</a> 
                 <div className='textFooter'>
                     &copy; dr.consulta 2019 <br />
-                    todos os direitos reservados
+                    Todos os direitos reservados.
                 </div>
             </div>
         </footer>

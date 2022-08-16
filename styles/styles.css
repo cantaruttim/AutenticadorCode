@@ -5,12 +5,21 @@
 }
 
 :root{
-    --corFundo: #0086d6;
-    --corArea: #0057b8;
+    --corFundo: #0032d6;
+    --corArea: #041ba0;
 }
 
 body .content {
     background-color: var(--corFundo);
+}
+
+header .linkLogo .logo{
+    margin: auto;
+    align-items: center;
+    font-size: xx-large;
+    color: blue;
+    padding-left: 115px;
+    font-weight: bold;
 }
 
 .content{
@@ -39,7 +48,7 @@ body .content {
 
 .content .textoLogo{
     margin: auto;
-    position: fixed;
+    position: absolute;
     text-align: center;
     top: 100px;
     left: 480px;
@@ -80,14 +89,16 @@ body .content {
 .content .content-box .btnVerificar{
     background-color: gold;
     color: #fff;
+    border: none;
+    font-weight: 800;
     display: inline-block;
-    width: 100px;
+    width: 125px;
     height: 45px;
     padding: 20px 5px;
     margin: 10px 0;
     align-items: flex-end;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 20px;
     z-index: 999;
     position: absolute;
     left: 260px;
@@ -108,14 +119,23 @@ body .content {
 
 footer{
     display: inline-block;
+    align-items: flex-start;
+    font-size: 35px;
+    padding: 0 20px;
+    height: fit-content;
+    color: blue;
+    font-weight: bold;
 }
 
 .textFooter{
     color: blue;
     display: block;
-    align-items: center;
     margin: auto;
-    font-size: 16px;
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    top: 630px;
+    padding: 0 20px;
 }
 
 
