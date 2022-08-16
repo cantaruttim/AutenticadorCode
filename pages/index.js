@@ -34,7 +34,7 @@ function Home() {
                     </div>
 
                     <div className='caixaDados'>
-                        <input className='caixaChave' type="text" /> <button className='btnVerificar'>Verificar</button>
+                        <input className='caixaChave' type="text" placeholder='Chave de Verificação'/> <button className='btnVerificar'>Verificar</button>
                     </div>
                     <div className='CampoObrigatorio'>
                         *Campo Obrigatório

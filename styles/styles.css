@@ -56,10 +56,19 @@ body .content {
     left: -100px;
 }
 
-.content .textoLogo .text_1{
+.content .content-box .text_1{
     background-color: var(--corArea);
     color: #fff;
     font-size: medium;
+    padding: 5px 0;
+}
+
+.content .content-box .caixaDados .caixaChave{
+    margin: 10px 5px;
+    padding: 20px 5px;
+    width: 75px;
+    height: 15px;
+    border-radius: 6px;border: solid red;
 }
 
 
