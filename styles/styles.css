@@ -26,7 +26,7 @@ body .content {
 }
 
 .content .content-box{
-    max-width: 1150px;
+    width: 380px ;
     height: 150px;
     margin: auto;
     position: absolute;
@@ -53,8 +53,8 @@ body .content {
     position: absolute;
     display: inline-block;
     background-color: var(--corFundo);
-    background-image: none;
-    left: -100px;
+    left: -110px;
+    top: -55px;
 }
 
 .content .content-box .text_1{
@@ -62,6 +62,10 @@ body .content {
     color: #fff;
     font-size: medium;
     padding: 5px 0;
+}
+
+.content .content-box .caixaDados{
+    background-color: var(--corArea);
 }
 
 .content .content-box .caixaDados .caixaChave{
@@ -75,16 +79,28 @@ body .content {
 .content .content-box .btnVerificar{
     background-color: gold;
     color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 45px;
     padding: 20px 5px;
     margin: 10px 5px;
-    height: 15px;
     align-items: flex-end;
     padding: 10px;
     border-radius: 6px;
     z-index: 999;
     position: absolute;
-    left: 250px;
-    top: 55px;
+    left: 260px;
+    top: 48px;
+    cursor: pointer;
+}
+
+.content .content-box .CampoObrigatorio{
+    background-color: var(--corArea);
+    color: #fff;
+    align-items: baseline;
+    position: absolute;
+    top: 130px;
+
 }
 
 
