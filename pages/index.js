@@ -18,6 +18,7 @@ function Home() {
 
         <header>
             <div className='linkLogo'>
+
                 <a className='logo'>dr.consulta</a>
             </div>
         </header>
@@ -25,7 +26,7 @@ function Home() {
         <section className='content'>
         <div className='textoLogo'>
                     <div className='Imglogo'>
-                        <i class="fas fa-fingerprint fa-4x"></i>
+                            <i class="fas fa-fingerprint fa-4x"></i>
                     </div>
                     Verificação de Documentos com Assinatura Digital
                 </div>
