@@ -10,10 +10,10 @@
     --corHover1: goldenrod;
 }
 
-.fa-light{
+.fa-fingerprint::before{
+    content: "\f577";
     background-color: var(--corFundo);
 }
-
 
 body .content {
     background-color: var(--corFundo);
