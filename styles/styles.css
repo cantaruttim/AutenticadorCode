@@ -18,7 +18,28 @@ body .content {
     background-color: var(--corFundo);
 }
 
-@media(max-width: 940px)
+.content{
+    min-height: 100%;
+    position: relative;
+}
+
+@media(max-width: 940px){
+    .textoLogo{
+        display: block;
+
+    }
+    .text_1{
+        display: inline-block;
+    }
+    body{
+        margin: auto;
+        overflow-x: hidden;
+        text-rendering: geometricPrecision;
+        -webkit-font-smootthing: antialiased;
+        box-sizing: border-box;
+    }
+    
+}
 
 header .linkLogo .logo{
     margin: auto;
@@ -57,7 +78,6 @@ header .linkLogo .logo{
     margin: auto;
     position: absolute;
     text-align: center;
-    display: flex;
     top: 130px;
     left: 480px;
     background-color: var(--corFundo);
