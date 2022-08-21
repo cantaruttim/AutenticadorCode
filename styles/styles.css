@@ -25,7 +25,7 @@ body .content {
 
 @media(max-width: 940px){
     .textoLogo{
-        display: block;
+        display: inline-block;
 
     }
     .text_1{
@@ -113,7 +113,6 @@ header .linkLogo .logo{
     border-radius: 6px;
     border: thin solid red;
 }
-
 
 .content .content-box .btnVerificar{
     background-color: gold;
