@@ -38,6 +38,14 @@ body .content {
         -webkit-font-smootthing: antialiased;
         box-sizing: border-box;
     }
+    .content .textoLogo .Imglogo{
+        margin: auto;
+        display: inline-block;
+    }
+    .content .textoLogo{
+        margin: auto;
+        display: inline-block;
+    }
     
 }
 
