@@ -24,7 +24,7 @@ function Home() {
         </header>
 
         <section className='content'>
-        <div className='textoLogo'>
+                <div className='textoLogo'>
                     <div className='Imglogo'>
                             <i class="fas fa-fingerprint fa-4x"></i>
                     </div>

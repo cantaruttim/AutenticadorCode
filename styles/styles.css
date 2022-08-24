@@ -46,6 +46,20 @@ body .content {
         margin: auto;
         display: inline-block;
     }
+    .content-box{
+        margin: auto;
+    }
+    .content-box .caixaTexto .text_1{
+        margin: auto;
+        display: inline-block;
+    }
+    .content-box .caixaDados{
+        margin: auto;
+        display: inline-block;
+    }
+    .content-box .btnVerificar{
+        margin: auto;
+    }
     
 }
 
